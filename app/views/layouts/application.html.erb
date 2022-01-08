@@ -54,7 +54,7 @@
     </header>
 
     <main class="mb-auto">
-      <p id="notice"></p>
+      <p><%= flash[:notice] %></p>
       <div class="container">
         <%= yield %>
       </div>
